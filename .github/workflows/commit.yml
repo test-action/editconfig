@@ -18,6 +18,6 @@ jobs:
           fetch-depth: 0
 
       - name: Lint editconfig settings
-        uses: "zbeekman/EditorConfig-Action@v1.1.0"
+        uses: zbeekman/EditorConfig-Action@v1.1.0
         env:
-          ALWAYS_LINT_ALL_FILES = "false" # This is the default
+          ALWAYS_LINT_ALL_FILES: false
